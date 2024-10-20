@@ -2,7 +2,7 @@ services:
   - type: web
     name: my-web-service
     env: node
-    buildCommand: npm install && npm run build
     startCommand: npm start
     plan: free
     region: oregon
+
